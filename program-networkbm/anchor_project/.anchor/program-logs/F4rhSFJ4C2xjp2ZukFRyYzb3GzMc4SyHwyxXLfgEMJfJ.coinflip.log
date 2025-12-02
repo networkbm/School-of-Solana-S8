@@ -1,0 +1,21 @@
+Streaming transaction logs mentioning F4rhSFJ4C2xjp2ZukFRyYzb3GzMc4SyHwyxXLfgEMJfJ. Confirmed commitment
+Transaction executed in slot 425383081:
+  Signature: 2CBGf6F51cayF96KgJc2Dh62fXCGFH1DaCEDnJ4zJKL2fWqqscZFSDFT666M3HkBuFin6ePoyx9i6jzqmm2JJqz9
+  Status: Error processing Instruction 0: custom program error: 0x0
+  Log Messages:
+    Program F4rhSFJ4C2xjp2ZukFRyYzb3GzMc4SyHwyxXLfgEMJfJ invoke [1]
+    Program log: Instruction: InitializeVault
+    Program 11111111111111111111111111111111 invoke [2]
+    Allocate: account Address { address: E96VcguT8GRzSU7pym2P8oYWXKJz2D7W1bmVFKCpo4ws, base: None } already in use
+    Program 11111111111111111111111111111111 failed: custom program error: 0x0
+    Program F4rhSFJ4C2xjp2ZukFRyYzb3GzMc4SyHwyxXLfgEMJfJ consumed 5056 of 200000 compute units
+    Program F4rhSFJ4C2xjp2ZukFRyYzb3GzMc4SyHwyxXLfgEMJfJ failed: custom program error: 0x0
+Transaction executed in slot 425383082:
+  Signature: iWS6FffcKWekrzK47gPkD9p9zzMPA9gCYrnWQHcDCL77WGGjpoGQToqEuDbktvpaZM9BL9qPKiuBcnFvStewbg7
+  Status: Error processing Instruction 0: custom program error: 0x1772
+  Log Messages:
+    Program F4rhSFJ4C2xjp2ZukFRyYzb3GzMc4SyHwyxXLfgEMJfJ invoke [1]
+    Program log: Instruction: FlipCoin
+    Program log: AnchorError thrown in programs/coinflip/src/lib.rs:20. Error Code: InsufficientFunds. Error Number: 6002. Error Message: Vault has insufficient funds for payout..
+    Program F4rhSFJ4C2xjp2ZukFRyYzb3GzMc4SyHwyxXLfgEMJfJ consumed 5080 of 200000 compute units
+    Program F4rhSFJ4C2xjp2ZukFRyYzb3GzMc4SyHwyxXLfgEMJfJ failed: custom program error: 0x1772
